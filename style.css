@@ -1,4 +1,3 @@
-/* Mentor Muhammad Shajjar  */
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 * {
   margin: 0px;
@@ -10,30 +9,28 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree", sans-serif;
   font-style: normal;
-  font-family: "Figtree", sans-serif;
 }
 
 .blogcard {
   display: flex;
   flex-direction: column;
   border: 1px solid hsl(0, 0%, 7%);
-  max-width: 443px;
-  min-height: 604px;
+  max-width: 390px;
+  width: 90%;
   border-radius: 17px;
   margin: 50px auto;
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 6px 6px 3px hsl(0, 0%, 7%);
+  box-shadow: 9px 10px 3px hsl(0, 0%, 7%);
 }
 
 .img img {
-  margin: 22px 25px 0px 20px;
-  /* width: 395px; */
-  width: 90%;
+  margin: 23px 0px 0px 22px;
+  width: 88%;
   border-radius: 12px;
 }
 
 .content {
-  margin: 5px 25px;
+  margin-left: 21px;
 }
 .content a {
   text-decoration: none;
@@ -48,28 +45,29 @@ body {
   font-weight: 800;
   font-size: 17px;
   color: hsl(0, 0%, 7%);
-  margin: 13px 0px;
+  margin-top: 15px;
 }
 #para {
   color: hsl(0, 0%, 7%);
   opacity: 0.9;
   font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 15px;
+  font-size: 14px;
+  margin-bottom: 17px;
 }
 h1 {
-  font-size: 25px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  margin-bottom: 15px;
 }
 p {
-  font-size: 17px;
+  font-size: 16px;
   color: hsl(0, 0%, 50%);
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   line-height: 25px;
-  opacity: 0.9;
+  opacity: 0.95;
+  margin-top: 13px;
+  padding-right: 2px;
 }
 
 h1:hover {
@@ -77,9 +75,9 @@ h1:hover {
   cursor: pointer;
 }
 
-.content img {
-  width: 45px;
-  margin: 23px 0px;
+.profile img {
+  width: 38px;
+  margin: 30px 0px;
   display: inline-block;
 }
 
@@ -87,10 +85,28 @@ h2 {
   font-size: 17px;
   font-weight: 800;
   margin: 38px 0px 0px 15px;
-  display: inline-block;
 }
 
-.footer {
+.profile {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (max-width: 440px) {
+  p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #para {
+    font-size: 12px;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 900;
+  }
 }
